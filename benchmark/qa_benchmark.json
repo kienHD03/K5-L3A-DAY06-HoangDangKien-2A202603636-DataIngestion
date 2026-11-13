@@ -1,0 +1,230 @@
+[
+  {
+    "id": "q01",
+    "type": "truc_tiep",
+    "split": "dev",
+    "question": "What are ethics?",
+    "expected_answer": "Ethics are the standards of behavior to which we hold ourselves accountable in our personal and professional lives.",
+    "gold_source_id": "openstax_business_ethics_ch2",
+    "gold_page": 24,
+    "evidence_quote": "Ethics are the standards of behavior to which we hold ourselves accountable in our personal and professional lives.",
+    "filter": null
+  },
+  {
+    "id": "q02",
+    "type": "truc_tiep",
+    "split": "dev",
+    "question": "What two types of virtues did Aristotle identify?",
+    "expected_answer": "Intellectual and moral.",
+    "gold_source_id": "openstax_business_ethics_ch2",
+    "gold_page": 25,
+    "evidence_quote": "Aristotle identified two types of virtues... The two types were intellectual and moral.",
+    "filter": null
+  },
+  {
+    "id": "q03",
+    "type": "dieu_kien",
+    "split": "dev",
+    "question": "What did the moral virtues include?",
+    "expected_answer": "Courage, self-control, liberality, magnificence, honor, patience, and amiability.",
+    "gold_source_id": "openstax_business_ethics_ch2",
+    "gold_page": 26,
+    "evidence_quote": "They included courage, self-control, liberality, magnificence, honor, patience, and amiability.",
+    "filter": {
+      "section": "Ancient Athens"
+    }
+  },
+  {
+    "id": "q04",
+    "type": "truc_tiep",
+    "split": "dev",
+    "question": "Who could vote in the Athenian version of democracy?",
+    "expected_answer": "Only adult men who owned property could vote.",
+    "gold_source_id": "openstax_business_ethics_ch2",
+    "gold_page": 27,
+    "evidence_quote": "only adult men who owned property could vote",
+    "filter": null
+  },
+  {
+    "id": "q05",
+    "type": "truc_tiep",
+    "split": "dev",
+    "question": "How did Aquinas further divide Aristotelian prudence?",
+    "expected_answer": "Memory, reason, understanding, docility, shrewdness, foresight, circumspection, and caution.",
+    "gold_source_id": "openstax_business_ethics_ch2",
+    "gold_page": 29,
+    "evidence_quote": "Aquinas further divided Aristotelian prudence into memory, reason, understanding, docility, shrewdness, foresight, circumspection, and caution.",
+    "filter": null
+  },
+  {
+    "id": "q06",
+    "type": "truc_tiep",
+    "split": "dev",
+    "question": "What did Confucius call for to counter social disintegration?",
+    "expected_answer": "A return to li, which was the proper order of the universe.",
+    "gold_source_id": "openstax_business_ethics_ch2",
+    "gold_page": 30,
+    "evidence_quote": "He called for a 'return to li', which was the proper order of the universe",
+    "filter": null
+  },
+  {
+    "id": "q07",
+    "type": "truc_tiep",
+    "split": "dev",
+    "question": "How is a junzi defined?",
+    "expected_answer": "A person who was gracious, magnanimous, and cultured: in other words, a flourishing human being.",
+    "gold_source_id": "openstax_business_ethics_ch2",
+    "gold_page": 31,
+    "evidence_quote": "a person who was gracious, magnanimous, and cultured: in other words, a flourishing human being.",
+    "filter": null
+  },
+  {
+    "id": "q08",
+    "type": "truc_tiep",
+    "split": "dev",
+    "question": "What are the five great relationships that support Chinese society?",
+    "expected_answer": "Parent/child, husband/wife, elder/junior sibling, master/apprentice, and ruler/subject.",
+    "gold_source_id": "openstax_business_ethics_ch2",
+    "gold_page": 32,
+    "evidence_quote": "the five great relationships that support Chinese society: parent/child, husband/wife, elder/junior sibling, master/apprentice, and ruler/subject.",
+    "filter": null
+  },
+  {
+    "id": "q09",
+    "type": "dieu_kien",
+    "split": "dev",
+    "question": "How is quan applied in a moral dilemma?",
+    "expected_answer": "It is applied when weighing options in a moral dilemma and acts as a counterbalance to achieve fairness.",
+    "gold_source_id": "openstax_business_ethics_ch2",
+    "gold_page": 33,
+    "evidence_quote": "applied when weighing options in a moral dilemma and acts as a counterbalance to achieve fairness",
+    "filter": {
+      "section": "Ancient China"
+    }
+  },
+  {
+    "id": "q10",
+    "type": "truc_tiep",
+    "split": "dev",
+    "question": "What was Mao Zedong's view of Confucius?",
+    "expected_answer": "He was deeply suspicious of Confucius, holding him to be a relic of the Imperial Era.",
+    "gold_source_id": "openstax_business_ethics_ch2",
+    "gold_page": 34,
+    "evidence_quote": "Mao Zedong was deeply suspicious of Confucius, holding him to be a relic of the Imperial Era",
+    "filter": null
+  },
+  {
+    "id": "q11",
+    "type": "truc_tiep",
+    "split": "dev",
+    "question": "What did Confucius call a great or humane person?",
+    "expected_answer": "ru",
+    "gold_source_id": "openstax_business_ethics_ch2",
+    "gold_page": 36,
+    "evidence_quote": "Confucius urged each follower to be a great or humane person, or ru, not a small one.",
+    "filter": null
+  },
+  {
+    "id": "q12",
+    "type": "truc_tiep",
+    "split": "dev",
+    "question": "Who do the Generally Accepted Accounting Principles (GAAP) give direction to?",
+    "expected_answer": "Those working in accounting and finance in the United States.",
+    "gold_source_id": "openstax_business_ethics_ch2",
+    "gold_page": 37,
+    "evidence_quote": "The Generally Accepted Accounting Principles (GAAP) give direction to those working in accounting and finance in the United States.",
+    "filter": null
+  },
+  {
+    "id": "q13",
+    "type": "truc_tiep",
+    "split": "dev",
+    "question": "What was Bentham's fundamental axiom?",
+    "expected_answer": "All social morals and government legislation should aim for producing the greatest happiness for the greatest number of people.",
+    "gold_source_id": "openstax_business_ethics_ch2",
+    "gold_page": 39,
+    "evidence_quote": "all social morals and government legislation should aim for producing the greatest happiness for the greatest number of people.",
+    "filter": null
+  },
+  {
+    "id": "q14",
+    "type": "truc_tiep",
+    "split": "dev",
+    "question": "What does the hedonic calculus measure?",
+    "expected_answer": "The utility of proposed actions according to the conditions of intensity, duration, certainty, and the probability.",
+    "gold_source_id": "openstax_business_ethics_ch2",
+    "gold_page": 40,
+    "evidence_quote": "measure the utility of proposed actions according to the conditions of intensity, duration, certainty, and the probability",
+    "filter": null
+  },
+  {
+    "id": "q15",
+    "type": "truc_tiep",
+    "split": "dev",
+    "question": "When and at what age did Kant publish Critique of Pure Reason?",
+    "expected_answer": "In 1781, at the age of fifty-six years.",
+    "gold_source_id": "openstax_business_ethics_ch2",
+    "gold_page": 43,
+    "evidence_quote": "In 1781, at the age of fifty-six years, Kant published Critique of Pure Reason",
+    "filter": null
+  },
+  {
+    "id": "q16",
+    "type": "dieu_kien",
+    "split": "test",
+    "question": "Who introduced the harm principle in Utilitarianism?",
+    "expected_answer": "John Stuart Mill.",
+    "gold_source_id": "openstax_business_ethics_ch2",
+    "gold_page": 41,
+    "evidence_quote": "Therefore, he introduced the harm principle, which states that",
+    "filter": {
+      "section": "Utilitarianism"
+    }
+  },
+  {
+    "id": "q17",
+    "type": "truc_tiep",
+    "split": "test",
+    "question": "What does Kant's categorical imperative command you to do?",
+    "expected_answer": "Act only according to that maxim whereby you can, at the same time, will that it should become a universal law.",
+    "gold_source_id": "openstax_business_ethics_ch2",
+    "gold_page": 44,
+    "evidence_quote": "Act only according to that maxim whereby you can, at the same time, will that it should become a universal law.",
+    "filter": null
+  },
+  {
+    "id": "q18",
+    "type": "truc_tiep",
+    "split": "test",
+    "question": "What did the main character Jean Valjean steal in Les Misérables?",
+    "expected_answer": "A loaf of bread to feed his sister's starving family.",
+    "gold_source_id": "openstax_business_ethics_ch2",
+    "gold_page": 45,
+    "evidence_quote": "The main character, Jean Valjean, steals a loaf of bread to feed his sister's starving family",
+    "filter": null
+  },
+  {
+    "id": "q19",
+    "type": "truc_tiep",
+    "split": "test",
+    "question": "Why did the Samsung Galaxy Note 7 smartphones start exploding?",
+    "expected_answer": "Due to faulty batteries and casings.",
+    "gold_source_id": "openstax_business_ethics_ch2",
+    "gold_page": 46,
+    "evidence_quote": "Galaxy Note 7 smartphones started exploding due to faulty batteries and casings.",
+    "filter": null
+  },
+  {
+    "id": "q20",
+    "type": "dieu_kien",
+    "split": "test",
+    "question": "What are the three principles of Rawls's justice theory?",
+    "expected_answer": "(1) an 'original position,' (2) a 'veil of ignorance,' and (3) unanimity of acceptance of the original position.",
+    "gold_source_id": "openstax_business_ethics_ch2",
+    "gold_page": 47,
+    "evidence_quote": "The principles are (1) an 'original position,' (2) a 'veil of ignorance,' and (3) unanimity of acceptance of the original position.",
+    "filter": {
+      "section": "A Theory of Justice"
+    }
+  }
+]

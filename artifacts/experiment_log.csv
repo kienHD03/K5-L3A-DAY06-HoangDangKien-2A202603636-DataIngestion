@@ -1,4 +1,4 @@
 strategy,chunking,chunk_size,overlap,metadata,filter,vectorizer,hypothesis,dev_hit1,dev_hit3,test_hit1,test_hit3,notes
-A,,,,,,,,,,,,
-B,,,,,,,,,,,,
-C,,,,,,,,,,,,
+A,Fixed-size,500,50,"document_id, source, page",None,text-embedding-3-small,Cắt văn bản theo kích thước cố định làm baseline để so sánh,0.0,0.0,0.0,0.0,Chấm thủ công Hit@3 (Evidence): Dev 12/15 - Test 4/5. Coherence kém do cắt ngang câu.
+B,Paragraph,500,0,"document_id, source, page",None,text-embedding-3-small,Chia theo cụm đoạn văn (B) sẽ giữ trọn vẹn ngữ nghĩa (coherence) tốt hơn chiến lược A,0.0,0.0,0.0,0.0,Chấm thủ công Hit@3: Dev 14/15 - Test 5/5. Hiệu suất tốt nhất trong 3 chiến lược.
+C,Paragraph,500,0,"document_id, source, page",Yes,text-embedding-3-small,Áp dụng bộ lọc siêu dữ liệu (C) sẽ giúp thu hẹp phạm vi và tìm chính xác kết quả hơn B,0.0,0.0,0.0,0.0,Chấm thủ công Hit@3: Dev 11/15 - Test 2/5. Filter quá khắt khe khiến trả về mảng rỗng.
