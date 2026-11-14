@@ -39,7 +39,11 @@
 
 
 Đường dẫn trace, nhãn thủ công và cách chọn mẫu:
-
+- File trace chứa top-3 chunks cho mỗi câu hỏi được lưu tại `results/traces.json`.
+- Nhãn thủ công: Đánh giá bằng mắt thường theo 2 tiêu chí:
+  - Tính mạch lạc (Coherence): Thang 0-2 (0 = Cắt ngang/mất nghĩa, 1 = Hiểu được nhưng thiếu ngữ cảnh, 2 = Tròn nghĩa).
+  - Grounding (Bằng chứng): Thang 0-2 (0 = Không chứa câu trả lời, 1 = Liên quan nhưng thiếu ý, 2 = Đủ thông tin trả lời).
+- Cách chọn mẫu: Chọn ngẫu nhiên 5 câu từ tập dev và lấy toàn bộ 5 câu từ tập test (tổng 10 mẫu) để đọc trực tiếp trường `text` của từng chunk. Kiểm tra metadata tự động trên toàn bộ 20 câu.
 ## Phân tích và kết luận
 - So sánh A–B và B–C; 2 ví dụ sai có ID câu và nguồn:
   - A so với B: Chiến lược B (Paragraph) bảo toàn ngữ nghĩa tốt hơn hẳn A (Fixed-size). Chiến lược A thường xuyên cắt ngang câu, làm mất đi ngữ cảnh quan trọng khiến LLM khó tổng hợp câu trả lời, trong khi B giữ trọn vẹn các đoạn văn logic.
